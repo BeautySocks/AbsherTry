@@ -14,12 +14,12 @@
 </head>
 <body>
 <div data-role="page">
-<div data-role="content">		
-			<div style="text-align:center">
-				<h1><img src="css/images/_icon1.png" width="80" height="80"></h1>
-				<h4>الصفحه الرئيسيه</h4>
-  </div>
-<a href ="#index-panel"data-role="button" data-iconpos="notext" data-icon="bars" data-inline="true">Menu</a> <!-- panel -->
+<div data-role="content">
+
+	
+<div style="text-align:left">
+    <img src="css/images/banner.png" width="230" height="135"> </div>
+<a href ="#index-panel"data-role="button" data-iconpos="notext" data-icon="bars" data-inline="true">Menu</a> 
 
 </div> <!-- end of header -->
 <!-- A page can have one or more content areas -->
@@ -27,25 +27,67 @@
 <!-- A useful element is the listview -->
 <ul data-role="listview" data-theme="d" data-divider-theme="e" data-inset="false"  data-filter="true">
 <li data-role="list-divider">الصفحة الرئيسية</li>
+</ul>
 <hr>
-			<li><a href="index.html" ><span class=ui-li-aside>
+<div data-role="collapsible-set" data-inset="false" data-iconpos="right" data-theme="b" data-content-theme="d">
+<div data-role="collapsible" data-collapsed="false">
+  <h3 class="right">مبادرة أبشر</h3>
+<img src="css/images/_icon1.png" width="80" height="80">
+<ul data-role="listview" id="panelcategories">
+<li><a href="#results">تعريف البرنامج</a></li>
+<li><a href="#results">شركاء البرنامج</a></li>
+<li><a href="#results">العروض و التسهيلات</a></li>
+<li><a href="#results">الأسئلة الشائعة</a></li>
+</ul>
+</div> <!-- End first collapsible -->
+
+<div data-role="collapsible" data-collapsed="false">
+  <h3 class="right">التسجيل</h3>
+<img src="css/images/_icon6.png" width="80" height="80">
+<ul data-role="listview" id="panelcategories">
+<li><a href="#results">تسجيل المواطنين العاملين في القطاع الخاص</a></li>
+<li><a href="#results">تسجيل الشركات الداعمة</a></li>
+</ul>
+</div>
+
+<div data-role="collapsible" data-collapsed="false">
+  <h3 class="right">الاستفسار</h3>
+<img src="css/images/_icon6.png" width="80" height="80">
+<ul data-role="listview" id="panelcategories">
+<li><a href="#results">استفسار عن حالة تسجيل المواطن</a></li>
+<li><a href="#results">استفسار عن حالة طلب المنشأة</a></li>
+</ul>
+</div>
+
+<div data-role="collapsible" data-collapsed="false">
+  <h3 class="right">الملف الشخصي</h3>
+<img src="css/images/_icon6.png" width="80" height="80">
+<ul data-role="listview" id="panelcategories">
+<li><a href="#results">تسجيل</a></li>
+</ul>
+</div>
+
+
+</div> <!-- End collapsible-->
+			<!--<li><a href="index.html" ><span class=ui-li-aside>
   <h3>مبادرة أبشر</h3></span><img src="css/images/_icon1.png" width="80" height="80">
-			</a></li>
+			</a></li>-->
+           
             <li><a href="index.html"><img src="css/images/_icon2.png" width="80" height="80">
   <h3>تواصل معنا</h3>
 			</a></li>
-            <li><a href="index.html"><img src="css/images/_icon3.png" width="80" height="80">
+            <!--<li><a href="index.html"><img src="css/images/_icon3.png" width="80" height="80">
   <h3>الملف الشخصي</h3>
-			</a></li>
+			</a></li>-->
             <li><a href="index.html"><img src="css/images/_icon4.png" width="80" height="80">
   <h3>العروض</h3>
 			</a></li>
-            <li><a href="index.html"><img src="css/images/_icon5.png" width="80" height="80">
+<!--            <li><a href="index.html"><img src="css/images/_icon5.png" width="80" height="80">
   <h3>الاستفسار</h3>
-			</a></li>
-            <li><a href="index.html"><img src="css/images/_icon6.png" width="80" height="80">
+			</a></li>-->
+           <!-- <li><a href="index.html"><img src="css/images/_icon6.png" width="80" height="80">
   <h3>التسجيل</h3>
-			</a></li>
+			</a></li>-->
             <li><a href="index.html"><img src="css/images/_icon7.png" width="80" height="80">
   <h3>الأقتراحات</h3>
 			</a></li>
@@ -79,6 +121,6 @@ More info ---
 </div> <!-- End second collapsible -->
 </div> <!-- End collapsible-->
 </div> <!-- End Panel -->
-
+</div>
 </body>
 </html>

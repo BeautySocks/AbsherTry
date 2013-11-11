@@ -38,7 +38,8 @@ background-image: url(css/images/2.png)no-repeat center center fixed;
     -o-background-size: cover;      /* Opera*/
     background-size: cover;  
 }a {
-	font-family: "Diwani Letter";
+	font-family: "DIN Next LT Arabic Light";
+	font-weight: normal;
 }
 .arabic {
 	text-align: right;
