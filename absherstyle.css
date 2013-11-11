@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+
+.ui-body-a,.ui-overlay-a{
+border:1px solid #444;
+background:#222;
+color:#fff;
+text-shadow:0 1px 0 #111;
+font-weight:400;
+
+background-image: url(css/images/2.png)no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;  
+}
+ui-body-b,.ui-overlay-b{
+border:1px solid #444;
+background:#222;
+color:#fff;
+text-shadow:0 1px 0 #111;
+font-weight:400;
+
+background-image: url(css/images/2.png)no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;  
+}
+]ui-body-c,.ui-overlay-c{
+border:1px solid #444;
+background:#222;
+color:#fff;
+text-shadow:0 1px 0 #111;
+font-weight:400;
+background-image: url(css/images/2.png)no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;  
+}a {
+	font-family: "Diwani Letter";
+}
