@@ -11,29 +11,33 @@
 <link href="absherstyle.css" rel="stylesheet" type="text/css">
 <!--No need to download this file, it will be added-->
 <script src="phonegap.js"></script>
+
 </head>
 <body>
-<div data-role="page">
-<div data-role="content">
-
-	
-<div style="text-align:left">
-    <img src="css/images/banner.png" width="230" height="135"> </div>
+<div data-role="page" class="type-interior">
+<div data-role="header">
+<h1>الصفحة الرئيسية</h1>
 <a href ="#index-panel"data-role="button" data-iconpos="notext" data-icon="bars" data-inline="true">Menu</a> 
-
+</div>
+<div data-role="content">
+<div class="centerBanner">
+<img src="css/images/banner.png" width="230" height="135">
+</div>
+<!--<img src="css/images/banner.png" width="230" height="135">-->
 </div> <!-- end of header -->
+
 <!-- A page can have one or more content areas -->
 <div data-role="content">
 <!-- A useful element is the listview -->
-<ul data-role="listview" data-theme="d" data-divider-theme="e" data-inset="false"  data-filter="true">
-<li data-role="list-divider">الصفحة الرئيسية</li>
-</ul>
-<hr>
-<div data-role="collapsible-set" data-inset="false" data-iconpos="right" data-theme="b" data-content-theme="d">
+
+<!-- Make a collapse Set --> 
+<div data-role="collapsible-set" data-inset="false" data-iconpos="right">
+<!-- First Collapse part for Mubadara-->
 <div data-role="collapsible" data-collapsed="false">
-  <h3 class="right">مبادرة أبشر</h3>
-<img src="css/images/_icon1.png" width="80" height="80">
-<ul data-role="listview" id="panelcategories">
+<h3>مبادرة أبشر<img src="css/images/_icon1.png" width="60" height="60">
+</h3>
+
+<ul data-role="listview" id="panelcategories" data-theme="b">
 <li><a href="#results">تعريف البرنامج</a></li>
 <li><a href="#results">شركاء البرنامج</a></li>
 <li><a href="#results">العروض و التسهيلات</a></li>
@@ -42,44 +46,44 @@
 </div> <!-- End first collapsible -->
 
 <div data-role="collapsible" data-collapsed="false">
-  <h3 class="right">التسجيل</h3>
-<img src="css/images/_icon6.png" width="80" height="80">
-<ul data-role="listview" id="panelcategories">
-<li><a href="#results">تسجيل المواطنين العاملين في القطاع الخاص</a></li>
+  <h3 class="ListH">التسجيل<img src="css/images/_icon6.png" width="60" height="60"></h3>
+  <ul data-role="listview" id="panelcategories" data-theme="b">
+  <li><a href="#results">تسجيل المواطنين العاملين في القطاع الخاص</a></li>
 <li><a href="#results">تسجيل الشركات الداعمة</a></li>
 </ul>
 </div>
 
 <div data-role="collapsible" data-collapsed="false">
-  <h3 class="right">الاستفسار</h3>
-<img src="css/images/_icon6.png" width="80" height="80">
-<ul data-role="listview" id="panelcategories">
+  <h3 class="ListH">الاستفسار<img src="css/images/_icon5.png" width="60" height="60">
+</h3>
+<ul data-role="listview" id="panelcategories" data-theme="b">
 <li><a href="#results">استفسار عن حالة تسجيل المواطن</a></li>
 <li><a href="#results">استفسار عن حالة طلب المنشأة</a></li>
 </ul>
 </div>
 
 <div data-role="collapsible" data-collapsed="false">
-  <h3 class="right">الملف الشخصي</h3>
-<img src="css/images/_icon6.png" width="80" height="80">
-<ul data-role="listview" id="panelcategories">
+  <h3 class="ListH">الملف الشخصي<img src="css/images/_icon3.png" width="60" height="60"></h3>
+
+<ul data-role="listview" id="panelcategories" data-theme="b">
 <li><a href="#results">تسجيل</a></li>
 </ul>
 </div>
-
-
 </div> <!-- End collapsible-->
+
+
+<ul data-role="listview" data-theme="d" data-filter="false" data-inset="false"  data-iconpos="right" >
 			<!--<li><a href="index.html" ><span class=ui-li-aside>
   <h3>مبادرة أبشر</h3></span><img src="css/images/_icon1.png" width="80" height="80">
 			</a></li>-->
            
-            <li><a href="index.html"><img src="css/images/_icon2.png" width="80" height="80">
-  <h3>تواصل معنا</h3>
+            <li><a href="index.html" class="ListH"><img src="css/images/_icon6-2.png" width="80" height="80">
+<h3>تواصل معنا</h3>
 			</a></li>
             <!--<li><a href="index.html"><img src="css/images/_icon3.png" width="80" height="80">
   <h3>الملف الشخصي</h3>
 			</a></li>-->
-            <li><a href="index.html"><img src="css/images/_icon4.png" width="80" height="80">
+            <li><a href="index.html" class="ListH"><img src="css/images/_icon4.png" width="80" height="80">
   <h3>العروض</h3>
 			</a></li>
 <!--            <li><a href="index.html"><img src="css/images/_icon5.png" width="80" height="80">
@@ -88,8 +92,8 @@
            <!-- <li><a href="index.html"><img src="css/images/_icon6.png" width="80" height="80">
   <h3>التسجيل</h3>
 			</a></li>-->
-            <li><a href="index.html"><img src="css/images/_icon7.png" width="80" height="80">
-  <h3>الأقتراحات</h3>
+            <li><a href="index.html" class="ListH"><img src="css/images/_icon7.png" width="80" height="80">
+  <h3>الاقتراحات</h3>
 			</a></li>
 </ul> <!-- End of list -->
 </div> <!-- End of content div -->

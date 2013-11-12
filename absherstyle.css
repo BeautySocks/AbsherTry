@@ -1,17 +1,11 @@
 @charset "utf-8";
 
 .ui-body-a,.ui-overlay-a{
-border:1px solid #444;
-background:#222;
-color:#fff;
-text-shadow:0 1px 0 #111;
-font-weight:400;
-
-background-image: url(css/images/2.png)no-repeat center center fixed;
-    -webkit-background-size: cover; /* For WebKit*/
-    -moz-background-size: cover;    /* Mozilla*/
-    -o-background-size: cover;      /* Opera*/
-    background-size: cover;  
+	border: 1px solid #444;
+	color: #fff;
+	text-shadow: 0 1px 0 #111;
+	font-weight: 400;
+	background-color: #FFF;
 }
 ui-body-b,.ui-overlay-b{
 border:1px solid #444;
@@ -19,12 +13,7 @@ background:#222;
 color:#fff;
 text-shadow:0 1px 0 #111;
 font-weight:400;
-
-background-image: url(css/images/2.png)no-repeat center center fixed;
-    -webkit-background-size: cover; /* For WebKit*/
-    -moz-background-size: cover;    /* Mozilla*/
-    -o-background-size: cover;      /* Opera*/
-    background-size: cover;  
+background-color: #FFF;
 }
 ]ui-body-c,.ui-overlay-c{
 border:1px solid #444;
@@ -32,18 +21,41 @@ background:#222;
 color:#fff;
 text-shadow:0 1px 0 #111;
 font-weight:400;
-background-image: url(css/images/2.png)no-repeat center center fixed;
-    -webkit-background-size: cover; /* For WebKit*/
-    -moz-background-size: cover;    /* Mozilla*/
-    -o-background-size: cover;      /* Opera*/
-    background-size: cover;  
+background-color: #FFF;
 }a {
 	font-family: "DIN Next LT Arabic Light";
-	font-weight: normal;
+	font-weight: bold;
+	font-size: 14px;
 }
+.my-page div ul .bg {
+	background-image: url(css/images/hd1.png);
+	background-repeat: no-repeat;
+}
+
 .arabic {
 	text-align: right;
 }
-.right {
+.ui-page .ui-content .ui-listview .ui-li-thumb {
+    left  : auto;
+    right : 30px;
+}
+.ListH {
+	font-family: "DIN Next LT Arabic Light";
+	vertical-align: middle;
+}
+.ui-content {
+overflow: hidden;
+}
+.centerBanner {
+text-align: center;
+}
+.divRight {
+text-align: right;
+}
+.ui-page .ui-content .ui-listview .ui-btn-text a {
 	text-align: right;
+	padding-right: 50px;
+}
+.type-interior div ul li .ListH h3 {
+	margin-right: 80px;
 }
